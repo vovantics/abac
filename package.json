@@ -1,0 +1,30 @@
+{
+  "name": "abac",
+  "version": "0.0.0",
+  "description": "Attribute based access control for Node.js.",
+  "keywords": [
+    "abac",
+    "authorization"
+  ],
+  "main": "index.js",
+  "author": "Stevo",
+  "license": "MIT",
+  "scripts": {
+    "test": "node_modules/.bin/mocha --reporter spec test/*.test.js test/**/*.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/vovantics/abac.git"
+  },
+  "homepage": "https://github.com/vovantics/abac",
+  "dependencies": {
+    "abac-backend": "latest",
+    "async": "~0.2.10",
+    "underscore": "~1.5.2",
+    "util": "~0.10.3"
+  },
+  "devDependencies": {
+    "mocha": "~1.17.1",
+    "chai": "~1.9.0"
+  }
+}
